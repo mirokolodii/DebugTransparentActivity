@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light">
         <item name="android:windowBackground">@android:color/white</item>
     </style>
 
@@ -14,7 +15,7 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="ScrollViewStyle">
-    </style>
+    <!--    By removing this style I can make transparent activity to work -->
+    <style name="ScrollViewStyle" />
 
 </resources>
